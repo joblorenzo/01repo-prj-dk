@@ -1,0 +1,82 @@
+body {
+  font-family: 'Quicksand', arial, sans-serif;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  background-color: rgb(195, 27, 27);
+  background-color: white;
+
+  cursor: progress;
+}
+
+/*Layout for different tools screens*/
+
+.container-main-content {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(195, 27, 27);
+  background-color: white;
+  padding: 0px;
+  margin: 0px 317px;
+}
+
+.cta-button {
+  color: purple;
+  width: 100px;
+  
+}
+
+/*  ARTICLES */
+.articles-prototype-01 {
+  background-color: white;
+  background-color: yellow;
+  margin: 10px 0px;
+  padding: 0px 10px;
+}
+.articles-prototype-02 {
+  background-color: white;
+  background-color: yellow;
+  margin: 10px 0px;
+  padding: 0px 10px;
+}
+
+.Blockquote-01 {
+  background-color: #2e89d8; /* Sfondo azzurrino */
+  background-color: coral;
+  background-color: rgb(195, 27, 27);
+  padding: 2px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-family: 'Quicksand', Arial, sans-serif; /* Font leggibile */
+  font-size: 18px; /* Font più grosso */
+  color: #333; /* Colore del testo scuro */
+  text-align: center;
+  margin: 10px;
+}
+
+.Blockquote-01:hover {
+  box-shadow: 1px 3px 10px red; /* Effetto ombreggiatura */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+/*INDEX page - MAIN page*/
+
+ul ol a img{
+  height: 44px;
+}
+
+ul ol{
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0px;
+}

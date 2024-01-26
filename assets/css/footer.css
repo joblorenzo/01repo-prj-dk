@@ -1,0 +1,55 @@
+.Footer {
+  background-color: black;
+
+
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  align-items:flex-start;
+  justify-content: center;
+  padding: 20px 18px;
+  margin: 0px;
+
+  position: static;
+  bottom: 0;  
+}
+
+.footer-column {
+  max-width: auto;
+  width: 223px;
+  background-color: pink;
+  background-color: transparent;
+  padding: 0px;
+  margin: 8px;
+
+  font-size: 0.8em;
+  max-width: 200px;
+  overflow: hidden;
+  text-align: left;
+
+}
+
+.Footer div ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.Footer div ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-column img {
+  height: 100px;
+  border: 3px solid rgb(221, 33, 33); /* Imposta il bordo a 2 pixel con un colore rosso (#dd2121) */
+  border-radius: 50%; /* Imposta il raggio al 50% per rendere l'immagine circolare */
+}
+
+.footer-column img:first-child {
+  border-radius: 0%; /* Imposta il raggio al 50% per rendere l'immagine circolare */
+  border: none; /* Rimuovi il bordo precedentemente impostato */
+  height: 18px;
+  margin: 2px 0px;
+}

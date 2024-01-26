@@ -1,0 +1,42 @@
+1-SESSION per path randomico path-NAV con variabile php
+
+<?php
+// Ottieni il nome della pagina corrente
+$nomePagina = basename($_SERVER['PHP_SELF'], '.php');
+
+// Imposta la variabile per il path
+$directoryPath = ($nomePagina === 'index') ? '../' : '';
+
+----------------------------------
+
+-finire contenuti testuali
+	lavoro, casa, trasporti, vita, form
+-finire design articoli, blockquote, form.
+-Ridefinire HOME?
+-redigi guide
+-DESIGN ANIMATO
+	*HEADER
+		-copy AKQA type animation JS?? or CSS
+		header main image resize and nav moving along the page.
+		-icons nav and animations?
+	*BODY
+		-add draw in articles/images/shadows
+		animate articles block while scrolling
+		-add curson type?
+		-add little plane that follow cursor?
+	*FOOTER 
+		-change text hover => grey-white
+		-animate photos
+		-resize icons graphics with canva or...
+-
+-Revisionare codice secondo best practice and Google rules.
+
+##########...NEXT LEVEL...#####################
+	-backend form login data
+	-aggiungi MESSAGGINI errore e invio al form
+	-backend data
+	-set cookies / sessions/
+	-design call to action for not user VS LOGGED
+	- costruisce metodo di pagamento? x premium services
+	-realizza pagine o FOGLIO informativo COkies
+	-realizza cookies

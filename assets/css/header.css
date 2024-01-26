@@ -1,0 +1,107 @@
+header{
+  background-color: #333;
+  color: white;
+  padding: 20px;
+
+  display: grid;
+  grid-template-columns: 1fr; /* Una colonna per l'intero contenuto */
+  grid-template-rows: auto auto 100%; /* Una riga per il titolo, una per il sottotitolo, una per la navigazione */
+  gap: 10px; /* Spazio tra le righe */
+
+  display: flex;
+  flex-direction: column;
+
+  background-image: url('../img/headerDanimarchizziamoci.jpg'); /* Sostituisci 'percorso/immagine.jpg' con il percorso effettivo dell'immagine */
+  background-position: bottom; /* Centra l'immagine nell'header */
+  text-align: center; /* Centra il testo all'interno dell'header */
+  padding: 0px;
+  padding: 0px; /* Aggiungi spaziatura interna all'header per rendere il testo leggibile */
+
+  min-height: 350px;
+}
+
+header h1 {
+  font-size: 50px;
+  color: black;
+  margin: 0;
+
+  font-family: 'Quicksand', arial, sans-serif;
+  font-style: oblique;
+  font-weight: bolder;
+
+
+  margin-top: 100px;
+}
+
+header h2 {
+  font-size: 36px;
+  color: black;
+  margin: 0;
+
+  font-family: 'Quicksand', arial, sans-serif;
+  font-style: oblique;
+  font-weight: bolder;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  width: auto; /* Occupa tutta la larghezza dell'header */
+  background-color: rgba(0,0,0,0.2);
+  background-color: rgb(195, 27, 27);
+  padding: 9px;
+
+  position: relative;
+  bottom: -72px;
+
+  align-items: center;
+}
+
+header nav a {
+  color: aliceblue;
+
+  font-family: 'Quicksand', arial, sans-serif;
+  font-style: oblique;
+  font-weight: bolder;
+}
+
+header nav a img {
+  background-color: transparent;
+  height: 38px;
+}
+
+/*##########################################################*/
+/*##########################################################*/
+/* Stili per il menu a tendina */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+/*##########################################################*/
+/*##########################################################*/
